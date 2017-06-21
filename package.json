@@ -1,0 +1,26 @@
+{
+  "name": "using-typescript-with-node-js",
+  "version": "1.0.0",
+  "description": "In this article we will set up an [Express][1] application using [Typescript][2].",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "keywords": [],
+  "author": "BrianDGLS <briandgls@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "azure": "^2.0.0-preview",
+    "body-parser": "^1.15.2",
+    "errorhandler": "^1.4.3",
+    "express": "4.14.0",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/errorhandler": "0.0.30",
+    "@types/method-override": "0.0.29",
+    "@types/morgan": "^1.7.32"
+  }
+}
